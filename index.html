@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Calabar - Result Portal</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="portal">
+
+        <!-- Top Header -->
+        <section class="header">
+
+            <div class="logo-container">
+                <img src="logo.jpeg" alt="University of Calabar Logo">
+            </div>
+
+            <h1>UNIVERSITY OF CALABAR</h1>
+            <p>RESULT PORTAL</p>
+
+        </section>
+
+
+        <!-- Form Area -->
+        <section class="form-area">
+
+            <!-- Matriculation Number -->
+            <div class="input-group">
+                <label for="matric">
+                    MATRICULATION NUMBER
+                </label>
+
+                <div class="input-box">
+                    <i class="fa-regular fa-id-card"></i>
+
+                    <input
+                        type="text"
+                        id="matric"
+                        placeholder="e.g. CC/20/0001"
+                    >
+                </div>
+            </div>
+
+
+            <!-- JAMB Registration Number -->
+            <div class="input-group">
+                <label for="jamb">
+                    JAMB REGISTRATION NUMBER
+                </label>
+
+                <div class="input-box">
+                    <i class="fa-solid fa-hashtag"></i>
+
+                    <input
+                        type="text"
+                        id="jamb"
+                        placeholder="e.g. 12345678AB"
+                    >
+                </div>
+            </div>
+
+
+            <!-- Access PIN -->
+            <div class="input-group">
+                <label for="pin">
+                    ACCESS PIN
+                </label>
+
+                <div class="input-box">
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input
+                        type="password"
+                        id="pin"
+                        placeholder="Enter your pin"
+                    >
+                </div>
+            </div>
+
+
+            <!-- Student Type Buttons -->
+            <div class="student-buttons">
+
+                <button class="student-btn">
+                    <i class="fa-solid fa-user-plus"></i>
+
+                    <span>
+                        NEW<br>
+                        STUDENT
+                    </span>
+                </button>
+
+
+                <button class="student-btn returning">
+                    <i class="fa-solid fa-rotate-right"></i>
+
+                    <span>RETURNING</span>
+                </button>
+
+            </div>
+
+
+            <!-- Login Button -->
+            <button class="login-btn">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                LOGIN
+            </button>
+
+        </section>
+
+
+        <!-- Bottom Links -->
+        <section class="bottom-area">
+
+            <a href="#" class="get-pin">
+                <i class="fa-solid fa-key"></i>
+                Don't have a pin? Get one here
+            </a>
+
+            <a href="#" class="change-pin">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                Change Pin
+            </a>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
